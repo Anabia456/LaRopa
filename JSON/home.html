@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="render" style="background-color: orange;"></div>
+    <script>
+        var url = "file.json";
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function (){
+            for( var i = 0; i<=20; i++ ){
+                if( xmlhttp.readyState == 4 && xmlhttp.status == 200 ){
+                    var myArr = JSON.parse(xmlhttp.responseText);
+                    document.getElementById("render").innerHTML = document.write( myArr[i].name + " " + myArr[i].performance + " " )
+                }
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+        </script>
+</body>
+</html>
+<!-- // document.write("<div>" + "<h3>" + myArr[i].name + "</h3>" )
+// document.write("<h5>" + myArr[i].class + "</h5>" )
+// document.write("<p>" + myArr[i].performance + "</p>" + "</div>" + "<hr>") -->

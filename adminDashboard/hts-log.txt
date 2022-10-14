@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 12 Jun 2022 23:39:50 at https://www.pixelwibes.com/template/ebazar/html/dist/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.pixelwibes.com/template/ebazar/html/dist/index.html -O1 "C:\Users\samif\OneDrive\Desktop\Template\Vision Dashboard" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:39:51	Warning: 	File not parsed, looks like binary: https://www.pixelwibes.com/robots.txt
+23:40:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.pixelwibes.com/template/ebazar/html/dist/assets/images/xs/avatar3.svg (from https://www.pixelwibes.com/template/ebazar/html/dist/index.html)
+23:40:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.pixelwibes.com/template/ebazar/html/dist/assets/images/xs/avatar5.svg (from https://www.pixelwibes.com/template/ebazar/html/dist/index.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 26 seconds : 205 links scanned, 201 files written (17694380 bytes overall) [11144529 bytes received at 129587 bytes/sec], 7795785 bytes transferred using HTTP compression in 112 files, ratio 14%, 9.1 requests per connection
+(No errors, 3 warnings, 0 messages)
